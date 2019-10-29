@@ -854,6 +854,7 @@ GameObject:
   - component: {fileID: 1382330815}
   - component: {fileID: 1382330812}
   - component: {fileID: 1382330817}
+  - component: {fileID: 1382330818}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -918,7 +919,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -89.19511
     y: 75.902435
-    width: 148.78046
+    width: 141.37924
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -941,11 +942,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 156.40936, y: 123.18299}
+  scrollPos: {x: 349.36853, y: 161.31111}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8200002
+  zoom: 0.5800004
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -996,7 +997,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 656.82904
     y: 44.90245
-    width: 219.51216
+    width: 208.62057
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1099,7 +1100,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -137.07129
     y: 161.09988
-    width: 219.51216
+    width: 208.62057
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1212,7 +1213,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 667.1027
     y: 139.46667
-    width: 219.51216
+    width: 208.62057
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1253,14 +1254,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 105.059204
     y: -12.466844
-    width: 163.41461
+    width: 151.72406
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 10
   blockName: Camera and Views
   description: 
-  eventHandler: {fileID: 0}
+  eventHandler: {fileID: 1382330818}
   commandList:
   - {fileID: 1382330810}
   - {fileID: 1382330809}
@@ -1356,7 +1357,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 357.00522
     y: -4.8903313
-    width: 120.73169
+    width: 120
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -1478,7 +1479,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 1382330811}
-  waitForFrames: 1
+  waitForFrames: 3
+--- !u!114 &1382330818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1382330790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dfcefb900be84c948bbe013dc8ffefb5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1382330806}
+  FireOn: 65
 --- !u!1 &1664923371
 GameObject:
   m_ObjectHideFlags: 1
